@@ -7,6 +7,12 @@
 3. [SD card] https://www.amazon.com/gp/product/B073JWXGNT/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1
 4. [Charger] https://www.amazon.com/gp/product/B01D9TUL8Y/ref=ppx_yo_dt_b_asin_title_o05_s01?ie=UTF8&psc=1
 
+## Python tutorials (pdf)
+1. https://bugs.python.org/file47781/Tutorial_EDIT.pdf
+2. http://anh.cs.luc.edu/python/hands-on/3.1/Hands-onPythonTutorial.pdf
+3. https://www.tutorialspoint.com/python3/python_tutorial.pdf
+4. http://tdc-www.harvard.edu/Python.pdf
+
 ## Python installation (Windows)
 1. https://www.python.org/downloads/windows/
 2. Latest Python 3 Release - Python 3.8.1 (12/23/2019)
