@@ -14,3 +14,7 @@
 3. Download 64-bit x64
 4. Installer | GPG Signature << click "Installer"
 5. Run installer
+
+## SSH connection to Raspberry pi at Window10
+1. Ctl+R & cmd
+2. ssh id@ip_address & password
