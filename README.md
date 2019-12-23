@@ -1,6 +1,12 @@
 # Robotics2019
 2019 KPCA Robotics camp
 
+## Purchase list
+1. [RobotCar] https://www.amazon.com/gp/product/B07Q3RQCQS/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1
+2. [RaspberryPi3B+] https://www.amazon.com/gp/product/B07BC6WH7V/ref=ppx_yo_dt_b_asin_title_o05_s01?ie=UTF8&psc=1
+3. [SD card] https://www.amazon.com/gp/product/B073JWXGNT/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1
+4. [Charger] https://www.amazon.com/gp/product/B01D9TUL8Y/ref=ppx_yo_dt_b_asin_title_o05_s01?ie=UTF8&psc=1
+
 ## Python installation (Windows)
 1. https://www.python.org/downloads/windows/
 2. Latest Python 3 Release - Python 3.8.1 (12/23/2019)
