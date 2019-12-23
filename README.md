@@ -18,3 +18,14 @@
 ## SSH connection to Raspberry pi at Window10
 1. Ctl+R & cmd
 2. ssh id@ip_address & password
+
+## Installing (flashing) Raspberry Pi OS (Raspbian) in Windows
+1. https://www.raspberrypi.org/documentation/installation/installing-images/windows.md
+2. Insert the SD card into your SD card reader. You can use the SD card slot if you have one, or an SD adapter in a USB port. Note the drive letter assigned to the SD card. You can see the drive letter in the left hand column of Windows Explorer, for example G:
+3. Download the Win32DiskImager utility from the Sourceforge Project page as an installer file, and run it to install the software.
+4. https://sourceforge.net/projects/win32diskimager/
+5. Run the Win32DiskImager utility from your desktop or menu.
+6. Select the image file you extracted earlier.
+7. In the device box, select the drive letter of the SD card. Be careful to select the correct drive: if you choose the wrong drive you could destroy the data on your computer's hard disk! If you are using an SD card slot in your computer, and can't see the drive in the Win32DiskImager window, try using an external SD adapter.
+8. Click 'Write' and wait for the write to complete.
+9. Exit the imager and eject the SD card.
