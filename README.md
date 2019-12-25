@@ -7,6 +7,9 @@
 3. [SD card] https://www.amazon.com/gp/product/B073JWXGNT/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1
 4. [Charger] https://www.amazon.com/gp/product/B01D9TUL8Y/ref=ppx_yo_dt_b_asin_title_o05_s01?ie=UTF8&psc=1
 
+## RaspTank manual
+1. https://www.adeept.com/video/static1/itemsfile/Manual_Adeept_RaspTank_V1_2.pdf
+
 ## Python tutorials (pdf)
 1. https://bugs.python.org/file47781/Tutorial_EDIT.pdf
 2. http://anh.cs.luc.edu/python/hands-on/3.1/Hands-onPythonTutorial.pdf
