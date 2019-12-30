@@ -26,6 +26,17 @@
 4. Ctl+R & cmd
 5. > py
 
+## Python3 set path
+1. Right click "This PC"
+2. Click Properties
+3. Advanced system settings
+4. Environment Variables
+5. System variables (below)
+6. Double click "Path"
+7. Click "New"
+8. Add C:\Users\"Your user name"\AppData\Local\Programs\Python\Python38
+9. Open terminal and type "python" to test
+
 ## Notepad++ installation
 1. https://notepad-plus-plus.org/downloads/
 2. Notepad++ 7.8.2 release (12/23/2019)
