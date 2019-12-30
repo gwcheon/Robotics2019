@@ -35,7 +35,8 @@
 6. Double click "Path"
 7. Click "New"
 8. Add C:\Users\"Your user name"\AppData\Local\Programs\Python\Python38
-9. Open terminal and type "python" to test
+9. Add C:\Users\"Your user name"\AppData\Local\Programs\Python\Python38\Scripts
+10. Open terminal and type "python" and "pip" to test
 
 ## Notepad++ installation
 1. https://notepad-plus-plus.org/downloads/
