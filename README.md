@@ -4,6 +4,9 @@
 ## Lecture link
 1. https://drive.google.com/file/d/1PYVgTv0V-3Wq4Mi0ZzVAdfaubBaJthgS/view?usp=sharing
 
+## Voice recorder
+1. https://drive.google.com/file/d/1wW1tQJzWGRO_LDEuqrxqr3qHQIGCY1PC/view?usp=sharing
+
 ## Purchase list
 1. [RobotCar] https://www.amazon.com/gp/product/B07Q3RQCQS/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1
 2. [RaspberryPi3B+] https://www.amazon.com/gp/product/B07BC6WH7V/ref=ppx_yo_dt_b_asin_title_o05_s01?ie=UTF8&psc=1
