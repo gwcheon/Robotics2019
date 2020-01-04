@@ -56,9 +56,14 @@
 ## Raspberry pi static ip address setting
 1. open /etc/dhcpcd.conf with text editor (sudo required)
 2. add following lines
-  > interface wlan0
-  > static ip_address=192.168.1.100/24
-  > static routers=192.168.1.1
+  - interface wlan0
+  - static ip_address=192.168.1.100/24
+  - static routers=192.168.1.1
+  
+## Raspberry pi utilities
+1. sudo apt-get update
+2. sudo apt-get install tightvncserver
+3. sudo apt-get install python3-thonny
 
 ## Installing (flashing) Raspberry Pi OS (Raspbian) in Windows
 1. Go to https://www.raspberrypi.org/downloads/raspbian/
