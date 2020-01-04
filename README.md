@@ -53,6 +53,13 @@
 1. Ctl+R & cmd
 2. ssh id@ip_address & password
 
+## Raspberry pi static ip address setting
+1. open /etc/dhcpcd.conf with text editor (sudo required)
+2. add following lines
+  > interface wlan0
+  > static ip_address=192.168.1.100/24
+  > static routers=192.168.1.1
+
 ## Installing (flashing) Raspberry Pi OS (Raspbian) in Windows
 1. Go to https://www.raspberrypi.org/downloads/raspbian/
 2. Download: Raspbian Buster with desktop (2nd one)
