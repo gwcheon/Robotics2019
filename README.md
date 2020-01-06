@@ -17,6 +17,9 @@
 1. https://www.adeept.com/video/static1/itemsfile/Manual_Adeept_RaspTank_V1_2.pdf
 2. https://drive.google.com/file/d/1OSZE5E2jvKWPw1DHyuOg5mW2dPT2_BG7/view?usp=sharing
 
+## RaspTank source code
+1. https://github.com/adeept/Adeept_RaspTank
+
 ## Python tutorials (pdf)
 1. https://bugs.python.org/file47781/Tutorial_EDIT.pdf
 2. http://anh.cs.luc.edu/python/hands-on/3.1/Hands-onPythonTutorial.pdf
