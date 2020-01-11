@@ -52,6 +52,15 @@
 4. Installer | GPG Signature << click "Installer"
 5. Run installer
 
+## TightVNC viewer installation
+1. https://www.tightvnc.com/download.php
+2. Installer for Windows (64-bit)
+3. setting
+  - click "Connection Options" icon (finger shape)
+  - Format and encoding
+    - Preferred encoding: Tight
+    - Allow JPEG, set image quality (quality 2)
+
 ## SSH connection to Raspberry pi at Window10
 1. Ctl+R & cmd
 2. ssh id@ip_address & password
