@@ -72,6 +72,12 @@
   - static ip_address=192.168.1.100/24
   - static routers=192.168.1.1
   
+## Raspberry pi X11 display setup for GUI
+1. xauth list $DISPLAY 
+2. pi:10 mit-magic-cookie-1 4d22408aga55sad1ccd165723g77923ae
+3. echo $DISPLAY
+4. xauth add localhost:10.0 mit-magic-cookie-1 4d22408aga55sad1ccd165723g77923ae
+  
 ## Raspberry pi utilities
 1. sudo apt-get update
 2. sudo apt-get install tightvncserver
