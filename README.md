@@ -122,3 +122,9 @@
   - Run TightVNC viewer
   - Use the ip address and the xdesktop number: (ex. 192.168.1.100:3)
   - Now, you can see Raspberry pi screen in your laptop!!
+### Installation of basic libraries
+- Open terminal
+- $git clone https://github.com/adeept/Adeept_RaspTank.git
+- $sudo python3 Adeept_RaspTank/setup.py
+- Now, it takes several minutes to install all related libraries
+
