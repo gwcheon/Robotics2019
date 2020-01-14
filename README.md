@@ -97,3 +97,28 @@
 11. Exit the imager and eject the SD card.
 12. Insert microSD card into Raspberry Pi.
 13. Start Raspberry Pi.
+
+## Raspberry pi setup for RaspTank
+### SSH and Remote desktop
+- How to add a network to make Raspberry pi automatically connect to the network when it books up.
+  - Connect power, hdmi port to monitor, keyboard and mouse.
+  - Boot up raspberry pi.
+  - Open Terminal
+  - $sudo raspi-config
+  - 2. Network Options
+  - N2 Wi-fi
+  - Please enter SSID: put your wifi name
+  - Please enter passphrase. Leave it empty if none: put your wifi password
+  - Finish
+  - Check your ip address: $ifconfig
+  - Check ip address of wlan0 (ex. 192.168.1.100)
+  - Reboot for test
+- SSH connection from your laptop
+  - Now, you don't need monitor, keyboard, and mouse
+  - In your laptop, open terminal (or putty if your terminal don't have ssh)
+  - $ssh pi@192.168.1.xx (Raspberry pi ip address)
+  - $password: raspberry
+  - You can see: New 'X' desktop is raspberrypi:3
+  - Run TightVNC viewer
+  - Use the ip address and the xdesktop number: (ex. 192.168.1.100:3)
+  - Now, you can see Raspberry pi screen in your laptop!!
