@@ -127,4 +127,15 @@
 - $git clone https://github.com/adeept/Adeept_RaspTank.git
 - $sudo python3 Adeept_RaspTank/setup.py
 - Now, it takes several minutes to install all related libraries
-
+### Download test code
+- Open terminal
+- $git clone https://github.com/gwcheon/Robotics2019
+- $cd Robotics2019/src
+### LED example
+- Open terminal
+- $cd Robotics2019/src
+- $thonny & (You have to put ampersand '&' after thonny, Text editor similar to notepad++)
+- Now, thonny program is open
+- Open source code: File > Open and navigate to LED.py (pi/Robotics2019/src/LED.py)
+- Go back to terminal
+- $sudo python3 LED.py
