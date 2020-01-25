@@ -8,8 +8,18 @@ import click
 pwm = Adafruit_PCA9685.PCA9685()
 pwm.set_pwm_freq(50)
 
-motor_pos = [100, 245, 100, 100, 100]
+motor_pos = [300, 240, 300, 160, 300]
+motor_pos_max = [300, 400, 330, 250, 320]
+motor_pos_min = [200, 200, 250, 100, 220]
+motor_dpos = 4
 motor_id  = 0
+
+# position init
+pwm.set_pwm(11, 0, motor_pos[0])
+pwm.set_pwm(12, 0, motor_pos[1])
+pwm.set_pwm(13, 0, motor_pos[2])
+pwm.set_pwm(14, 0, motor_pos[3])
+pwm.set_pwm(15, 0, motor_pos[4])
 
 while True:
     key = click.getchar()
@@ -33,14 +43,16 @@ while True:
         print('servo#5 selected')
     elif key == 'o': # increase
         if motor_id > 0 and motor_id < 6:
-            motor_pos[motor_id - 1] += 5
+            if motor_pos[motor_id - 1] + motor_dpos <= motor_pos_max[motor_id - 1]:
+                motor_pos[motor_id - 1] += motor_dpos
             print('motor#{0}.value={1}'.format(motor_id, motor_pos[motor_id - 1]))
             pwm.set_pwm(motor_id + 10, 0, motor_pos[motor_id - 1])
         else:
             print('Select motor first')
     elif key == 'p': # decrease
         if motor_id > 0 and motor_id < 6:
-            motor_pos[motor_id - 1] -= 5
+            if motor_pos[motor_id - 1] - motor_dpos >= motor_pos_min[motor_id - 1]:
+                motor_pos[motor_id - 1] -= motor_dpos
             print('motor#{0}.value={1}'.format(motor_id, motor_pos[motor_id - 1]))
             pwm.set_pwm(motor_id + 10, 0, motor_pos[motor_id - 1])
         else:
@@ -48,12 +60,4 @@ while True:
     else:
         print('invalid key input')
 
-'''
-pos = 220
-for i in range(12):
-    pwm.set_pwm(12, 0, pos)
-    pos += 10
-    time.sleep(0.1)
 
-time.sleep(1)
-'''
